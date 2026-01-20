@@ -68,3 +68,45 @@ body{
     border-radius: 50%;
     color: white;
 }
+#banner{
+    margin: 0px 10%;
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 9%;
+    
+}
+.banner-text h1{
+    
+    text-align: center;
+    font-size: 64px;
+    margin: 0px;
+}
+.banner-text p{
+    text-align: center;
+    margin:20px 10% ;
+    
+}
+#banner-btn {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    background-color: #ABEF5F;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+#banner-btn span{
+    font-weight: 500;
+    font-size: 20px;
+}
