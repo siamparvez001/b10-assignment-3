@@ -486,4 +486,67 @@ body {
     padding: 20px 100px;
     font-size: 16px;
     border-radius: 30px;
+    cursor: pointer;
+}
+#footer{
+    background-color: black;
+    padding: 100px 250px;
+}
+.footer-continer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-continer p{
+    width: 550px;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    opacity: 60%;
+    margin-bottom: 0px;
+}
+.footer-continer ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.footer-continer ul li{
+    text-decoration: none;
+    margin: 0px;
+    cursor: pointer;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo span{
+    font-size: 32px;
+}
+.footer-btn {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    background-color: #ABEF5F;
+    padding: 10px 20px;
+    border-radius: 32px;
+
+}
+ 
+#black{
+    background-color: white;
+     
+ 
+}
+.footer-btn span {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
 }
