@@ -111,10 +111,10 @@ body{
     font-size: 20px;
 }
 #hero{
-    padding: 30px 10%;
+    padding: 30px 5%;
     background-color: rgb(239, 236, 236);
     margin: 100px 0px;
-}
+} 
 .rect{
     display: flex;
 }
@@ -144,15 +144,38 @@ body{
     opacity: 60%;
     line-height: 26px;
 }
+.img-text{
+    display: flex;
+    flex-direction: column;
+     
+    gap: 15px;
+}
+.img-text h3{
+    margin: 0px;
+    
+}
+
 .rect-img-container{
     display: flex;
-    align-content: center;
+    align-content: start;
     align-items: center;
+    margin-bottom: 15px;
     gap: 30px;
+    border-radius: 25px;
+    padding: 30px;
+    width: 50%;
+    box-shadow: 0 0 10px 0px rgb(220, 217, 217);
+     margin-top: 15px;
 }
 .rect-img-container p{
-    width: 50%;
+     
     opacity: 60%;
     font-size: 15px;
     line-height: 26px;
+}
+.img-text p{
+    margin: 0px;
+     
+    padding: 0px;
+    line-height: 20px;
 }
