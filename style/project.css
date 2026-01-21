@@ -237,3 +237,33 @@ body{
     padding: 0px 15px;
     align-items: center;
 }
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10% 100px;
+}
+.main-card{
+    padding: 24px;
+    border-radius: 16px;
+    width: 190px ;
+}
+.main-card h3{
+    margin: 5px 0px;
+}
+.main-card p{
+    opacity: 60%;
+    margin: 10px 0px;
+    line-height: 20px;
+}
+#card-1{
+    background-color: #E7C1D3;
+}
+#card-2{
+    background-color: #EFDA6E;
+}
+#card-3{
+    background-color: #A4DAC3;
+}
+#card-4{
+    background-color: #77AAEA;
+}
