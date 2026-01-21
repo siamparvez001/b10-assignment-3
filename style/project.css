@@ -1,47 +1,57 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
-#navbar{
+
+#navbar {
     margin: 30px 10%;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
-.nav-logo span{
+
+.nav-logo span {
     font-size: 28px;
     font-weight: 900;
 }
-.search-4{
+
+.search-4 {
     display: none;
 }
-.nav-list ul{
+
+.nav-list ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
-.nav-list ul li{
+
+.nav-list ul li {
     font-weight: 400px;
     font-size: 16px;
     opacity: 60%;
 }
-.nav-list ul .bold{
-    font-weight: 800 ;
-     
+
+.nav-list ul .bold {
+    font-weight: 800;
+
 }
-.nav-search{
+
+.nav-search {
     display: flex;
     gap: 15px;
 }
-.search-3{
+
+.search-3 {
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -50,52 +60,60 @@ body{
     background-color: #ABEF5F;
     padding: 10px 20px;
     border-radius: 32px;
- 
+
 }
-.search-3 span{
+
+.search-3 span {
     font-size: 20px;
     font-weight: 800;
 }
-#green{
+
+#green {
     background-color: #ABEF5F;
     padding: 10px;
     border-radius: 50%;
 }
 
-#black{
-    background-color: #cbff9080 ;
+#black {
+    background-color: #cbff9080;
     padding: 10px;
     border-radius: 50%;
     color: white;
 }
-#banner{
+
+#banner {
     margin: 0px 10%;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .banner-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px 9%;
-    
+
 }
-.banner-text h1{
-    
+
+.banner-text h1 {
+
     text-align: center;
     font-size: 64px;
     margin: 0px;
 }
-.banner-text p{
+
+.banner-text p {
     text-align: center;
-    margin:20px 10% ;
-    
+    margin: 20px 10%;
+
 }
+
 #banner-btn {
     align-content: center;
     justify-content: center;
@@ -106,20 +124,23 @@ body{
     padding: 10px 20px;
     border-radius: 32px;
 }
-#banner-btn span{
+
+#banner-btn span {
     font-weight: 500;
     font-size: 20px;
 }
-#hero{
+
+#hero {
     padding: 30px 5%;
     background-color: rgb(239, 236, 236);
     margin: 100px 0px;
-} 
-.rect{
+}
+
+.rect {
     display: flex;
 }
 
-.about{
+.about {
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -130,32 +151,36 @@ body{
     background-color: white;
     padding: 10px 20px;
     border-radius: 32px;
-     
+
 }
-.rect-head h2{
+
+.rect-head h2 {
     font-size: 40px;
     width: 60%;
     font-weight: bold;
     padding: 0px;
     margin: 20px 0px;
 }
-.rect-head  p{
+
+.rect-head p {
     width: 70%;
     opacity: 60%;
     line-height: 26px;
 }
-.img-text{
+
+.img-text {
     display: flex;
     flex-direction: column;
-     
+
     gap: 15px;
 }
-.img-text h3{
+
+.img-text h3 {
     margin: 0px;
-    
+
 }
 
-.rect-img-container{
+.rect-img-container {
     display: flex;
     align-content: start;
     align-items: center;
@@ -167,69 +192,80 @@ body{
     box-shadow: 0 0 10px 0px rgb(220, 217, 217);
     margin-top: 15px;
 }
-.rect-img-container p{
-     
+
+.rect-img-container p {
+
     opacity: 60%;
     font-size: 15px;
     line-height: 26px;
 }
-.img-text p{
-    margin: 0px; 
+
+.img-text p {
+    margin: 0px;
     padding: 0px;
     line-height: 20px;
 }
-#number-section{
+
+#number-section {
     border-radius: 25px;
     background-color: white;
     margin: 80px 0px;
     padding: 40px 70px;
 }
-.nmber-container{
+
+.nmber-container {
     display: flex;
     justify-content: space-between;
 }
-.number{
+
+.number {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.number h2{
-    margin:10px 0px;
+
+.number h2 {
+    margin: 10px 0px;
     font-size: 40px;
-     
-}
-.number p{
-    opacity: 60%;
-    margin: 0px;
-    
-}
-#works{
 
 }
-.works-container{
+
+.number p {
+    opacity: 60%;
+    margin: 0px;
+
+}
+
+#works {}
+
+.works-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
-.works-text{
+
+.works-text {
     width: 30%;
 }
-.works-text h2{
+
+.works-text h2 {
 
     margin: 20px;
     font-size: 40px;
     font-weight: bold;
 }
-.works-text p{
+
+.works-text p {
     margin: 0px;
     line-height: 26px;
     opacity: 60%;
-     
-    
+
+
 }
-#works-btn{
+
+#works-btn {
     display: flex;
     gap: 15px;
     background-color: white;
@@ -237,40 +273,50 @@ body{
     padding: 0px 15px;
     align-items: center;
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: space-between;
     margin: 50px 10% 100px;
 }
-.main-card{
+
+.main-card {
     padding: 24px;
     border-radius: 16px;
-    width: 190px ;
+    width: 190px;
 }
-.main-card h3{
+
+.main-card h3 {
     margin: 5px 0px;
 }
-.main-card p{
+
+.main-card p {
     opacity: 60%;
     margin: 10px 0px;
     line-height: 20px;
 }
-#card-1{
+
+#card-1 {
     background-color: #E7C1D3;
 }
-#card-2{
+
+#card-2 {
     background-color: #EFDA6E;
 }
-#card-3{
+
+#card-3 {
     background-color: #A4DAC3;
 }
-#card-4{
+
+#card-4 {
     background-color: #77AAEA;
 }
-#explore{
+
+#explore {
     margin: 10px 20%;
 }
-#explore-btn{
+
+#explore-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,13 +326,14 @@ body{
     border-radius: 25px;
 }
 
-.explore-container{
+.explore-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.explore-text{
+
+.explore-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -294,26 +341,31 @@ body{
     text-align: center;
     width: 550px;
 }
-.explore-text h2{
+
+.explore-text h2 {
     margin: 20px 0px;
     font-size: 40px;
     font-weight: 1000;
 }
-.explore-text p{
+
+.explore-text p {
     opacity: 60%;
     line-height: 20px;
     margin: 0px;
 }
-#grid-section{
+
+#grid-section {
     background-color: rgb(239, 236, 236);
     padding: 100px 8%;
-    margin: 100px 0px;
+    margin: 100px 0px 0px;
 }
-.grid-container{
+
+.grid-container {
     display: flex;
     gap: 20px;
     justify-content: space-between;
 }
+
 .grid {
     display: flex;
     flex-direction: column;
@@ -321,30 +373,35 @@ body{
     border-radius: 25px;
     background-color: white;
 }
-.grid h2{
+
+.grid h2 {
     font-size: 20px;
     line-height: 30px;
     width: 250px;
     margin: 10px 0px;
 }
-.grid p{
+
+.grid p {
     width: 300px;
     margin: 10px 0px;
 }
-#opacity{
+
+#opacity {
     margin-top: 15px;
     display: flex;
-    
+
     gap: 15px;
 }
-.opacity-img{
+
+.opacity-img {
     display: flex;
     justify-content: center;
     align-items: center;
-     
+
     gap: 7px;
 }
-.icon{
+
+.icon {
     padding: 0px;
 
     display: flex;
@@ -352,8 +409,81 @@ body{
     align-content: center;
     gap: 10px;
 }
-.icon-img img{
+
+.icon-img img {
     background-color: #ABEF5F;
     padding: 10px;
     border-radius: 50%;
+}
+
+#discuss-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #e7f4d8;
+    padding: 0px 20px;
+    border-radius: 25px;
+}
+
+#discuss {
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discuss-container {
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discuss-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.discuss-text h2 {
+    padding: 0px;
+    margin: 10px 0px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.discuss-text p {
+    margin-bottom: 50px;
+    opacity: 60%;
+    width: 550px;
+
+}
+
+.form {
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    width: 365px;
+}
+
+.text {
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.mail {
+    background-color: #ABEF5F;
+    border: none;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    padding: 20px 100px;
+    font-size: 16px;
+    border-radius: 30px;
 }
