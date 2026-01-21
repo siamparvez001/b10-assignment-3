@@ -267,3 +267,93 @@ body{
 #card-4{
     background-color: #77AAEA;
 }
+#explore{
+    margin: 10px 20%;
+}
+#explore-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #e7f4d8;
+    padding: 0px 20px;
+    border-radius: 25px;
+}
+
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 550px;
+}
+.explore-text h2{
+    margin: 20px 0px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.explore-text p{
+    opacity: 60%;
+    line-height: 20px;
+    margin: 0px;
+}
+#grid-section{
+    background-color: rgb(239, 236, 236);
+    padding: 100px 8%;
+    margin: 100px 0px;
+}
+.grid-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+}
+.grid h2{
+    font-size: 20px;
+    line-height: 30px;
+    width: 250px;
+    margin: 10px 0px;
+}
+.grid p{
+    width: 300px;
+    margin: 10px 0px;
+}
+#opacity{
+    margin-top: 15px;
+    display: flex;
+    
+    gap: 15px;
+}
+.opacity-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    gap: 7px;
+}
+.icon{
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.icon-img img{
+    background-color: #ABEF5F;
+    padding: 10px;
+    border-radius: 50%;
+}
