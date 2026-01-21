@@ -203,3 +203,37 @@ body{
     margin: 0px;
     
 }
+#works{
+
+}
+.works-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.works-text{
+    width: 30%;
+}
+.works-text h2{
+
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.works-text p{
+    margin: 0px;
+    line-height: 26px;
+    opacity: 60%;
+     
+    
+}
+#works-btn{
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0px 15px;
+    align-items: center;
+}
